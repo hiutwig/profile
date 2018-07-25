@@ -1,0 +1,114 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #323643;
+  background-color: /*#fabdce*/ #cee2ef;
+  background: url("images/eloisa_pattern_01.png")  repeat; nowhitespace: afterproperty;
+  background-repeat: repeat;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: #f67280;
+  font-weight: bolder;
+  letter-spacing: 5px;
+}
+
+h2 {
+  padding-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+
+}
+a {
+  color: #c06c84;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #e36488;
+ }
+
+#logo {
+  width: 200px;
+}
+
+.text-icons {
+  font-size: 30px;
+  padding: 0px 50px 0px 0px;
+}
+
+.card {
+  background: white;
+  padding: 60px ;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.img-posters {
+  width: 200px;
+  /*height: : 600px;*/
+  position: center;
+}
+.img-circle {
+  border-radius: 50%
+}
+
+.text-align {
+  text-align: center;
+}
+
+.table-content {
+  text-align: left;
+  padding: 50px 50px 10px 10px;
+}
+
+.text-table {
+  text-align: left;
+  padding: 5px 5px 5px 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  padding-left: 0px;
+}
+
+.btn-rose {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 1000px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-rose:hover {
+  background-color: #e36488;
+  color: white;
+}
